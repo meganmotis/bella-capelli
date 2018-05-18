@@ -133,6 +133,7 @@ section#services h2 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+  background-position: center right;
 }
 
 @media (min-width: 768px) {
@@ -237,4 +238,14 @@ footer.footer {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
+}
+
+.btn:hover {
+  background-color: #61C9A8;
+  border-color: #61C9A8;
+  color: #212529;
+}
+
+a:hover {
+  color: #61C9A8;
 }
